@@ -1,6 +1,13 @@
 
 # cbt-dictionary-backend
-backend for fastapi app 
+backend for fastapi app
+
+Cbt-dictionary is a future free web application to help people keep their own diary, based on cognitive behavioural therapy.
+
+
+PROJECT STATUS
+
+        #  project is under development
 
 INSTALL
 
