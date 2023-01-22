@@ -1,22 +1,14 @@
 
 # cbt-dictionary-backend
-backend for fastapi app
 
-сbt-dictionary is a future free web application to help people keep their own diary, based on cognitive behavioural therapy.
+⚠️ **ONGOING DEVELOPMENT** ⚠️
 
+`сbt-dictionary` is a free web application to help people keep their own diary, based on cognitive behavioural therapy.
 
-PROJECT STATUS
+## How to Use
 
-        #  project is under development
-
-INSTALL
-
-        1.  Copy the project from the github repository with the command:
-        # git clone https://github.com/itsapumpkinpie/cbt-dictionary-backend.git
-        2.  Navigate to the directory with the project.
-        # cd cbt-dictionary-backend
-
-START
-
-        1.  Execute startup command
-        # python3 app/main.py
+```bash
+git clone https://github.com/itsapumpkinpie/cbt-dictionary-backend.git
+cd cbt-dictionary-backend
+python3 app/main.py
+```
