@@ -12,7 +12,7 @@ PROJECT STATUS
 INSTALL
 
         1.  Copy the project from the github repository with the command:
-        # git clone https://github.com/Paulgof/flask_api
+        # git clone https://github.com/itsapumpkinpie/cbt-dictionary-backend.git
         2.  Navigate to the directory with the project.
         # cd cbt-dictionary-backend
 
