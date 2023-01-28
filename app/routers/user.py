@@ -1,4 +1,4 @@
-from app.auth import AuthProvider, get_provider
+from app.auth import provider as auth
 from fastapi import status, Depends, APIRouter, HTTPException
 from app import schemas
 
@@ -12,7 +12,7 @@ router = APIRouter(
     "/signup",
     status_code=status.HTTP_201_CREATED,
 )
-def register(user: schemas.User, auth: AuthProvider = Depends(get_provider)):
+def register(user: schemas.User):
     if err := auth.register(user.email, user.password):
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
@@ -25,7 +25,7 @@ def register(user: schemas.User, auth: AuthProvider = Depends(get_provider)):
     "/signin",
     status_code=status.HTTP_200_OK,
 )
-def login(user: schemas.User, auth: AuthProvider = Depends(get_provider)):
+def login(user: schemas.User):
     if err := auth.authenticate(user.email, user.password):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,

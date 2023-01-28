@@ -73,7 +73,3 @@ class PostgresAuthProvider(AuthProvider):
 
 
 provider = PostgresAuthProvider()
-
-
-def get_provider():
-    yield provider
