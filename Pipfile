@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+uvicorn = "*"
+fastapi = "*"
+sqlalchemy = "*"
+passlib = "*"
+psycopg2-binary = "*"
+pydantic = {extras = ["email"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+
+[scripts]
+dev = "uvicorn app.main:app --reload"
+updb = "docker-compose up -d db"
+down = "docker-compose down -v"

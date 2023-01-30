@@ -1,6 +1,0 @@
-uvicorn==0.18.3
-fastapi~=0.79.0
-setuptools~=65.3.0
-pydantic~=1.10.2
-SQLAlchemy~=1.4.42
-passlib~=1.7.4

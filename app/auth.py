@@ -1,7 +1,7 @@
 from typing import Optional
 from app import utils
 from app.db import models
-from app.db.сonnection import get_db
+from app.db.connection import get_db
 from sqlalchemy.orm import Session
 
 

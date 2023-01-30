@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import uvicorn
 from app.db import models
-from app.db.сonnection import engine
+from app.db.connection import engine
 from app.routers import post, user
 
 

@@ -1,5 +1,5 @@
 from fastapi import status, HTTPException, Response, Depends, APIRouter
-from app.db.сonnection import get_db
+from app.db.connection import get_db
 from app.db import models
 from app import schemas
 from sqlalchemy.orm import Session

@@ -3,7 +3,7 @@
 
 ⚠️ **ONGOING DEVELOPMENT** ⚠️
 
-`сbt-dictionary` is a free web application to help people keep their own diary, based on cognitive behavioural therapy.
+`cbt-dictionary` is a free web application to help people keep their own diary, based on cognitive behavioural therapy.
 
 ## How to Use
 
